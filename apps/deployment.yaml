@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: blog
-          image: 750545041805.dkr.ecr.ap-northeast-2.amazonaws.com/eks-platform-dev-blog:latest
+          image: 750545041805.dkr.ecr.ap-northeast-2.amazonaws.com/eks-platform-dev-blog:8029914
           ports:
             - containerPort: 3000
           env:
